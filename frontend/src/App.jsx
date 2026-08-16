@@ -14,7 +14,7 @@ function App() {
   const { isSignedIn, isLoaded } = useAuth();
 
   // option 1
-  // const { checkAuth, isCheckingAuth, clearAuth } = useAuthStore();
+  // const { checkAuth, isCheckingAuth, clearAuth } = useAuthStore()
 
   // option 2 - better for performance
   const clearAuth = useAuthStore((state) => state.clearAuth);
