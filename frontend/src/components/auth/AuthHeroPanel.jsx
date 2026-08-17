@@ -35,7 +35,7 @@ export function AuthHeroPanel() {
 
         <div className="flex flex-1 items-center justify-center py-6 md:py-4">
           <img
-            src="/auth.png"
+            src="/auth2.png"
             alt=""
             width={640}
             height={640}
